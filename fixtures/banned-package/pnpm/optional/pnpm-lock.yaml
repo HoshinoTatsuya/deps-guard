@@ -1,0 +1,30 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      opt-kit:
+        specifier: ^1.0.0
+        version: 1.0.0
+
+packages:
+
+  old-orm@1.0.0:
+    resolution: {integrity: sha512-BFCABKwLcazqn4lkkKvNIdQX+9BX3iBSbbhNE4Hj4MUvXNRNQCrJz0tVtmAjjTz9ImJzTu5lAXQToel6XfBWuA==}
+
+  opt-kit@1.0.0:
+    resolution: {integrity: sha512-p/r0jBk0w++Hb2vNTjkjkp75CNDtbHnZxVY/XaiI9mFLe0qjkHqukkiQElhTEOwLt09qjodxRzkM8HmLOFFgJQ==}
+
+snapshots:
+
+  old-orm@1.0.0:
+    optional: true
+
+  opt-kit@1.0.0:
+    optionalDependencies:
+      old-orm: 1.0.0

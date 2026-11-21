@@ -1,0 +1,7 @@
+packages:
+  - .
+catalog:
+  is-number: 7.0.0
+catalogs:
+  tools:
+    ms: 2.1.3

@@ -1,0 +1,30 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "aa-lib": "1.0.0",
+    "alias": "npm:bb-lib@1.0.0",
+    "bb-lib": "catalog:",
+    "gen": "exec:./gen.js",
+    "gitprep": "git://127.0.0.1:19418/gitprep#commit=201cc55bf124f10e68ba3e30b7e8026dee079603",
+    "hook-a": "1.0.0",
+    "hook-b": "patch:hook-b@npm%3A1.0.0#./patches/hook-b.patch",
+    "linked": "link:./linked",
+    "local-dir": "file:./local-dir",
+    "localtgz": "file:./aa.tgz",
+    "portal-dir": "portal:./portal-dir",
+    "tarball": "http://127.0.0.1:48721/aa-lib/-/aa-lib-1.0.0.tgz",
+    "ws": "workspace:*"
+  },
+  "optionalDependencies": {
+    "plat-win": "1.0.0"
+  },
+  "dependenciesMeta": {
+    "gen": {
+      "built": true
+    }
+  }
+}

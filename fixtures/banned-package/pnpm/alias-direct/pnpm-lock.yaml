@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      db:
+        specifier: npm:old-orm@^1.0.0
+        version: old-orm@1.0.0
+
+packages:
+
+  old-orm@1.0.0:
+    resolution: {integrity: sha512-BFCABKwLcazqn4lkkKvNIdQX+9BX3iBSbbhNE4Hj4MUvXNRNQCrJz0tVtmAjjTz9ImJzTu5lAXQToel6XfBWuA==}
+
+snapshots:
+
+  old-orm@1.0.0: {}

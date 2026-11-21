@@ -1,0 +1,252 @@
+{
+  "@pnpm/exe.android-arm64": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:59.808Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "@pnpm/exe.android-x64": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:56.227Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "@pnpm/exe.darwin-arm64": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:52.415Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "@pnpm/exe.darwin-x64": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:49.171Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "@pnpm/exe.freebsd-x64": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:45.965Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "@pnpm/exe.linux-arm64": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:43.093Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "@pnpm/exe.linux-arm64-musl": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:40.115Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "@pnpm/exe.linux-ppc64": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:37.171Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "@pnpm/exe.linux-riscv64": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:33.976Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "@pnpm/exe.linux-s390x": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:31.316Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "@pnpm/exe.linux-x64": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:28.143Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "@pnpm/exe.linux-x64-musl": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:24.981Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "@pnpm/exe.netbsd-x64": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:21.701Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "@pnpm/exe.win32-arm64": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:18.574Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "@pnpm/exe.win32-x64": {
+    "time": {
+      "12.21.0": "2026-11-13T21:00:15.237Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "d": {
+    "time": {
+      "1.0.2": "2024-03-01T13:08:07.744Z"
+    },
+    "versions": {
+      "1.0.2": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "es5-ext": {
+    "time": {
+      "0.10.64": "2024-02-27T16:42:12.377Z"
+    },
+    "versions": {
+      "0.10.64": {
+        "hasInstallScript": true
+      }
+    }
+  },
+  "es6-iterator": {
+    "time": {
+      "2.0.3": "2017-10-17T11:01:55.570Z"
+    },
+    "versions": {
+      "2.0.3": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "es6-symbol": {
+    "time": {
+      "3.1.4": "2024-03-01T13:27:21.636Z"
+    },
+    "versions": {
+      "3.1.4": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "esniff": {
+    "time": {
+      "2.0.1": "2024-02-21T15:29:09.138Z"
+    },
+    "versions": {
+      "2.0.1": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "event-emitter": {
+    "time": {
+      "0.3.7": "2026-11-02T20:53:10.508Z"
+    },
+    "versions": {
+      "0.3.7": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "ext": {
+    "time": {
+      "1.7.0": "2022-08-31T11:26:52.268Z"
+    },
+    "versions": {
+      "1.7.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "next-tick": {
+    "time": {
+      "1.1.0": "2020-02-11T04:03:15.049Z"
+    },
+    "versions": {
+      "1.1.0": {
+        "hasInstallScript": false
+      }
+    }
+  },
+  "pnpm": {
+    "time": {
+      "12.21.0": "2026-11-13T21:01:11.515Z"
+    },
+    "versions": {
+      "12.21.0": {
+        "hasInstallScript": true
+      }
+    }
+  },
+  "type": {
+    "time": {
+      "2.7.3": "2024-05-30T19:11:38.494Z"
+    },
+    "versions": {
+      "2.7.3": {
+        "hasInstallScript": false
+      }
+    }
+  }
+}

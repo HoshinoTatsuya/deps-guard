@@ -1,0 +1,16 @@
+# A standalone package (its own repository). pnpm 11+ does not run dependency
+# install scripts without an explicit decision.
+packages:
+  - '.'
+allowBuilds:
+  # Native file watcher of jest-haste-map (jest 30.5+, --watch mode). Prebuilt binaries ship in the
+  # optional @parcel/watcher-<platform> packages; the install script builds from source only with
+  # npm_config_build_from_source=true, so nothing is lost without it.
+  '@parcel/watcher': false
+engineStrict: true
+# Sibling dev tools are installed right after their release.
+minimumReleaseAgeExclude:
+  - '@hoshinotatsuya/arch-gates'
+  - '@hoshinotatsuya/jest-groups'
+  - '@hoshinotatsuya/node-guard'
+  - '@hoshinotatsuya/*'

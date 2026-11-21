@@ -1,0 +1,423 @@
+{
+  "pnpm": "12.4.1",
+  "cases": [
+    {
+      "text": "configDependencies:\t{bb-lib: 1.0.0+sha512-AAAA}\n",
+      "pnpm12": {
+        "configDependencies": {
+          "bb-lib": "1.0.0+sha512-AAAA"
+        }
+      }
+    },
+    {
+      "text": "? \t\"dangerouslyAllowAllBuilds\"\n: true\nallowBuilds:\n  dep: false\n",
+      "pnpm12": null
+    },
+    {
+      "text": "?\tignoreScripts\n: true\n",
+      "pnpm12": null
+    },
+    {
+      "text": "? ignoreScripts\n:\ttrue\n",
+      "pnpm12": null
+    },
+    {
+      "text": "packages:\n  - \t'a'\n",
+      "pnpm12": {
+        "packages": [
+          "a"
+        ]
+      }
+    },
+    {
+      "text": "packages:\n  -\ta\n",
+      "pnpm12": {
+        "packages": [
+          "a"
+        ]
+      }
+    },
+    {
+      "text": "packages:\n  - \t[b, c]\n",
+      "pnpm12": null
+    },
+    {
+      "text": "catalog:\t{a: 1.0.0}\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "1.0.0"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a:\t1.0.0\n",
+      "pnpm12": null
+    },
+    {
+      "text": "catalog:\n  'a':\t1.0.0\n",
+      "pnpm12": null
+    },
+    {
+      "text": "catalog: {a:\t1.0.0}\n",
+      "pnpm12": null
+    },
+    {
+      "text": "packages: [a,\t'b']\n",
+      "pnpm12": {
+        "packages": [
+          "a",
+          "b"
+        ]
+      }
+    },
+    {
+      "text": "packages: [a\t, b]\n",
+      "pnpm12": {
+        "packages": [
+          "a",
+          "b"
+        ]
+      }
+    },
+    {
+      "text": "allowBuilds: |\t# c\n  x\n",
+      "pnpm12": null
+    },
+    {
+      "text": "catalog:\n  a\t: 1.0.0\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "1.0.0"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: x\ty\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "x\ty"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: 1.0.0\t\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "1.0.0"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: 1.0.0\t# c\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "1.0.0"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: 'x\ty'\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "x\ty"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: |\n    \tx\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "\tx\n"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: 2027-01-13\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "2027-01-13"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: -0\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "-0"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: 1.10\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "1.10"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: 010\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "010"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: True\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "True"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: yes\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "yes"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: 1440\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "1440"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: ,x\n",
+      "pnpm12": null
+    },
+    {
+      "text": "catalog:\n  a: ]x\n",
+      "pnpm12": null
+    },
+    {
+      "text": "catalog:\n  a: }x\n",
+      "pnpm12": null
+    },
+    {
+      "text": "allowBuilds:\n  a: yes\n  b: on\n  c: off\n  d: True\n  e: false\n",
+      "pnpm12": {
+        "allowBuilds": {
+          "a": true,
+          "e": false,
+          "b": true,
+          "d": true,
+          "c": false
+        }
+      }
+    },
+    {
+      "text": "allowBuilds:\n  dep: set this to true or false\n",
+      "pnpm12": {
+        "allowBuilds": {
+          "dep": "set this to true or false"
+        }
+      }
+    },
+    {
+      "text": "ignoreScripts: yes\n",
+      "pnpm12": {
+        "ignoreScripts": true
+      }
+    },
+    {
+      "text": "ignoreScripts: True\n",
+      "pnpm12": {
+        "ignoreScripts": true
+      }
+    },
+    {
+      "text": "dangerouslyAllowAllBuilds: on\n",
+      "pnpm12": {
+        "dangerouslyAllowAllBuilds": true
+      }
+    },
+    {
+      "text": "packages: [\n  a,\n  b\n]\n",
+      "pnpm12": {
+        "packages": [
+          "a",
+          "b"
+        ]
+      }
+    },
+    {
+      "text": "catalog: {\n  a: 1.0.0\n}\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "1.0.0"
+        }
+      }
+    },
+    {
+      "text": "{\n  \"packages\": [\"a\"],\n  \"catalog\": {\"x\": \"1.0.0\"}\n}\n",
+      "pnpm12": {
+        "packages": [
+          "a"
+        ],
+        "catalog": {
+          "x": "1.0.0"
+        }
+      }
+    },
+    {
+      "text": "{\"packages\": [\"a\"]}\n",
+      "pnpm12": {
+        "packages": [
+          "a"
+        ]
+      }
+    },
+    {
+      "text": "packages: [a,\nb]\n",
+      "pnpm12": null
+    },
+    {
+      "text": "packages: [\n  [a,\n]\n  ]\n",
+      "pnpm12": null
+    },
+    {
+      "text": "catalog: {\n  es\n  build: 1.0.0 }\n",
+      "pnpm12": {
+        "catalog": {
+          "es build": "1.0.0"
+        }
+      }
+    },
+    {
+      "text": "catalog: { b: c\n  d }\n",
+      "pnpm12": {
+        "catalog": {
+          "b": "c d"
+        }
+      }
+    },
+    {
+      "text": "---allowBuilds  esbuild: true\n",
+      "pnpm12": {}
+    },
+    {
+      "text": "---\nallowBuilds:\n  esbuild: true\n",
+      "pnpm12": {
+        "allowBuilds": {
+          "esbuild": true
+        }
+      }
+    },
+    {
+      "text": "? allowBuilds\n: esbuild: true\n",
+      "pnpm12": {
+        "allowBuilds": {
+          "esbuild": true
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  ? a\n  : 1.0.0\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "1.0.0"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  \"\\x61\": 1.0.0\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "1.0.0"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: \"\\U0010FFFF\"\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "􏿿"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a #b: 1.0.0\n",
+      "pnpm12": null
+    },
+    {
+      "text": "catalog:\n  a: x #c\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "x"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: x#c\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "x#c"
+        }
+      }
+    },
+    {
+      "text": "allowBuilds:\n  <<: {dep: true}\n",
+      "pnpm12": {
+        "allowBuilds": {
+          "dep": true
+        }
+      }
+    },
+    {
+      "text": "allowBuilds: &x\n  dep: true\n",
+      "pnpm12": {
+        "allowBuilds": {
+          "dep": true
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: \"1.0.0\"\n  b: '1.0.0'\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "1.0.0",
+          "b": "1.0.0"
+        }
+      }
+    },
+    {
+      "text": "packages:\n- a\n- b\n",
+      "pnpm12": {
+        "packages": [
+          "a",
+          "b"
+        ]
+      }
+    },
+    {
+      "text": "catalog:\n  a: >-\n    x\n    y\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "x y"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  -a: 1.0.0\n",
+      "pnpm12": {
+        "catalog": {
+          "-a": "1.0.0"
+        }
+      }
+    },
+    {
+      "text": "catalog:\n  a: x #y\n",
+      "pnpm12": {
+        "catalog": {
+          "a": "x #y"
+        }
+      }
+    }
+  ]
+}

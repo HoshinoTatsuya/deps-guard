@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "..",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "types": ["node", "jest"],
+    "paths": {
+      "@hoshinotatsuya/deps-guard": ["../src/index.ts"],
+      "@hoshinotatsuya/deps-guard/jest": ["../src/jest/deps-guard-gate.ts"]
+    }
+  },
+  "include": ["."]
+}

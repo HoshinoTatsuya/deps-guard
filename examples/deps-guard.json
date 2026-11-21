@@ -1,0 +1,20 @@
+{
+  "newDependencies": {
+    "baseline": { "gitRef": "origin/main" },
+    "allow": { "date-fns": "date parsing in reports instead of hand-written code" }
+  },
+  "installScripts": {
+    "allow": { "esbuild": "downloads the binary for its platform; the build needs it" }
+  },
+  "sources": {
+    "registries": ["https://registry.npmjs.org/"],
+    "defaultRegistry": "https://registry.npmjs.org/",
+    "allow": {}
+  },
+  "typosquatting": { "allow": {} },
+  "freshness": { "minAgeDays": 7, "metadataFile": "deps-guard.metadata.json", "allow": {} },
+  "floatingRanges": { "fields": ["devDependencies"], "allow": {} },
+  "bannedPackages": [
+    { "name": "request", "reason": "deprecated by its author; use the built-in fetch instead" }
+  ]
+}

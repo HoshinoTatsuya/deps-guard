@@ -1,0 +1,29 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      alias-kit:
+        specifier: ^1.0.0
+        version: 1.0.0
+
+packages:
+
+  alias-kit@1.0.0:
+    resolution: {integrity: sha512-4Yt1601TKnOc7okQGiJUP8grQZ7ZXVgO1xuFqqdr3jX4KIvySZS8QQM+jZekuBD2oC4ctUcc6fAuceVM+H9O3w==}
+
+  old-orm@1.0.0:
+    resolution: {integrity: sha512-BFCABKwLcazqn4lkkKvNIdQX+9BX3iBSbbhNE4Hj4MUvXNRNQCrJz0tVtmAjjTz9ImJzTu5lAXQToel6XfBWuA==}
+
+snapshots:
+
+  alias-kit@1.0.0:
+    dependencies:
+      db: old-orm@1.0.0
+
+  old-orm@1.0.0: {}

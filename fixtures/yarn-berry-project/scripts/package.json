@@ -1,0 +1,8 @@
+{
+  "name": "root",
+  "private": true,
+  "dependencies": {
+    "hook-a": "1.0.0",
+    "hook-b": "1.0.0"
+  }
+}

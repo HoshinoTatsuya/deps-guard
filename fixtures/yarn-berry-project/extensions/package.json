@@ -1,0 +1,7 @@
+{
+  "name": "root",
+  "private": true,
+  "dependencies": {
+    "aa-lib": "1.0.0"
+  }
+}

@@ -1,0 +1,35 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      clean-lib:
+        specifier: ^1.0.0
+        version: 1.0.0
+      maybe-orm:
+        specifier: ^1.0.0
+        version: 1.0.0
+
+packages:
+
+  clean-lib@1.0.0:
+    resolution: {integrity: sha512-be094hho4d6vnYRaGIF9kUMkrkZWs2OycBdAVE+GENWKypuhCSFKbr+Wt0r2Pz26MVJBxkT/6C/w6vlDa45nJQ==}
+
+  maybe-orm@1.0.0:
+    resolution: {integrity: sha512-J+9D1OsPpugWj/jOS53aUtXufN9V2ZcCjNgi2K8la2SotyZVm7DSvx/Oe0nt9Nc4AQxooTMCWqeL99BnNTVoqg==}
+    peerDependencies:
+      old-orm: ^1.0.0
+    peerDependenciesMeta:
+      old-orm:
+        optional: true
+
+snapshots:
+
+  clean-lib@1.0.0: {}
+
+  maybe-orm@1.0.0: {}

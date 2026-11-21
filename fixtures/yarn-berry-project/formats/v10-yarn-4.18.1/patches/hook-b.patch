@@ -1,0 +1,6 @@
+diff --git a/patched.txt b/patched.txt
+new file mode 100644
+--- /dev/null
++++ b/patched.txt
+@@ -0,0 +1 @@
++x

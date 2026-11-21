@@ -1,0 +1,18 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "aa-lib": "1.0.0",
+    "alias": "npm:bb-lib@1.0.0",
+    "gen": "exec:./gen.js",
+    "linked": "link:./linked",
+    "local-dir": "file:./local-dir",
+    "localtgz": "file:./aa.tgz",
+    "portal-dir": "portal:./portal-dir",
+    "tarball": "http://127.0.0.1:48721/aa-lib/-/aa-lib-1.0.0.tgz",
+    "ws": "workspace:*"
+  }
+}

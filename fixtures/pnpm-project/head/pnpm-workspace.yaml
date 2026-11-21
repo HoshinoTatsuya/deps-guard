@@ -1,0 +1,4 @@
+packages:
+  - '.'
+allowBuilds:
+  native-hook: true
